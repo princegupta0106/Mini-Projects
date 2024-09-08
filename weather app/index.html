@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body >
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Enter city name" spellcheck="none">
+            <button id="search-button">
+                <img src="images/search.png" alt="Search">
+            </button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon m-auto">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Mumbai</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity" class="m-auto">
+                    <div>
+                        <p class="humidity pt-3">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind" class="m-auto">
+                    <div>
+                        <p class="wind pt-3">50%</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
